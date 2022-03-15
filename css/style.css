@@ -164,3 +164,51 @@ footer p {
 #banner {
     border-top: 3px solid black;
 }
+
+
+
+
+
+
+.gallery-container {
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+
+}
+
+/* GALLERY AREA */
+.gallery-image {
+    width: auto;
+    height: 384px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    padding:5px;
+    box-sizing: border-box;
+    border-bottom: 3px solid black;
+    outline-offset: -10px;
+    border-radius: 15%;
+}
+
+.image-container {
+    columns: black;
+    position: relative;
+    float: left;
+    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.gallery-text {
+    font: bolder;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+.image-container a {
+    text-decoration: none;
+}
