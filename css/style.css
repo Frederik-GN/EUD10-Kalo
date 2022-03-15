@@ -191,7 +191,7 @@ footer p {
     box-sizing: border-box;
     border-bottom: 3px solid black;
     outline-offset: -10px;
-    border-radius: 15%;
+    border-radius: 15%; 
 }
 
 .image-container {
